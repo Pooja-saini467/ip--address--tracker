@@ -19,7 +19,7 @@
 -  we can increase and decrease a map size through the plus -minus button .
 
 ## screenshot
-<img src="">
+<img src="https://github.com/Pooja-saini467/ip--address--tracker/blob/main/design/desktop-design.jpg">
 
 ## Demo
 
