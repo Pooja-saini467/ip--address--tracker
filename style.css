@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+header{
+    background: url('./images/pattern-bg.png') no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-weight: 500;
+    font-size: 26px;
+    padding: 25px 0px;
+    margin-top: 10px;
+}
+form{
+    margin-bottom: 100px;
+    display: flex;
+}
+input{
+    padding: 16px;
+    width: 450px;
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+button{
+    border: none;
+    padding: 13px 20px;
+    margin-left: -5px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: black;
+    color: #fff;
+    font-size: 22px;
+}
+.detail{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-top: -60px;
+    border-radius: 10px;
+    z-index: 100 !important;
+    box-shadow: 0 10px 20px rgba(37,43,70, 0.1);
+   
+}
+.detail div{
+    width: 25%;
+    padding: 25px 70px 25px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.detail div::before{
+    content: '';
+    position: absolute;
+    border-left: 1px solid hsl(0, 0%, 59%) !important;
+    height: 65px;
+    margin-left: -20px;
+    z-index: 100;
+    opacity: 0.2;
+    
+}
+.detail div:nth-child(1)::before{
+    border-left: none !important;
+}
+div h6{
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 59%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+div p{
+    font-weight: 500;
+    font-size: 26px;
+}
+#map{
+    width: 100%;
+    height: 67%;
+    position: absolute;
+    z-index: 0;
+    top: 242px;
+}
+input:focus,
+button:focus{
+    outline: none;
+}
+@media (max-width: 992px){
+    div p{
+        font-size: 14px;
+    }
+    .detail div{
+        padding-right: 30px;
+    }
+}
+@media (max-width: 768px){
+    .detail div::before{
+        content: '';
+        border-left: none !important;
+    }
+    .detail{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .detail div{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    div p{
+        font-size: 20px;
+    }
+    form{
+        width: 80%;
+    }
+}
+@media (max-width: 480px){
+    input{
+        font-size: 12px;
+    }
+}
