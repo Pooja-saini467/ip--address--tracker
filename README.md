@@ -23,6 +23,8 @@
 
 ## Demo
 
+https://user-images.githubusercontent.com/90523453/155602087-dcc81c25-352a-4a4b-9425-367ccdb41471.mp4
+
 ## Live Link
 - Pooja-saini467(https://pooja-saini467.github.io/ip--address--tracker/)
 
@@ -35,6 +37,6 @@
 
 ## Author
 - Website Url
-- pooja saini ()
+- pooja saini (https://www.linkedin.com/posts/pooja-saini-a8239a1a4_30daysofcodechallenge-frontendmentor-html5-activity-6902709893564837888-BcYX)
 - Twitter url
 - @Pooja96490259(https://twitter.com/home)
